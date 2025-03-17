@@ -65,38 +65,26 @@ A **network** is a collection of interconnected devices (such as computers, serv
 
 ## Types of Networks by Design (Topology)
 
-### 1. Bus Topology
-All devices are connected to a single cable (called the bus). Easy to set up but can experience network congestion.
+1. **Bus Topology**:
+   - All devices are connected to a single cable (called the bus).
+   - Easy to set up but can experience network congestion.
 
-![Bus Topology](https://i.imgur.com/3ZQZQ9m.png)
+2. **Star Topology**:
+   - All devices are connected to a central device (like a switch).
+   - Easy to manage and maintain, but the central device is a single point of failure.
 
----
+3. **Ring Topology**:
+   - Devices are connected in a circular fashion.
+   - Data travels in one direction around the ring.
+   - If one device fails, the entire network may be affected.
 
-### 2. Star Topology
-All devices are connected to a central device (like a switch). Easy to manage and maintain, but the central device is a single point of failure.
+4. **Mesh Topology**:
+   - Every device is connected to every other device.
+   - Provides the highest level of reliability but is expensive and complex.
 
-![Star Topology](https://i.imgur.com/4QZQZ9m.png)
-
----
-
-### 3. Ring Topology
-Devices are connected in a circular fashion. Data travels in one direction around the ring. If one device fails, the entire network may be affected.
-
-![Ring Topology](https://i.imgur.com/5ZQZQ9m.png)
-
----
-
-### 4. Mesh Topology
-Every device is connected to every other device. Provides the highest level of reliability but is expensive and complex.
-
-![Mesh Topology](https://i.imgur.com/6ZQZQ9m.png)
-
----
-
-### 5. Hybrid Topology
-A combination of two or more of the above topologies. Offers high flexibility but can be complex to manage.
-
-![Hybrid Topology](https://i.imgur.com/7ZQZQ9m.png)
+5. **Hybrid Topology**:
+   - A combination of two or more of the above topologies.
+   - Offers high flexibility but can be complex to manage.
 
 ---
 
@@ -107,9 +95,13 @@ A combination of two or more of the above topologies. Offers high flexibility bu
 3. **Mesh Topology**: Used in large networks requiring high reliability, such as military or government networks.
 
 ---
-## seconed vedio
+
 ## Conclusion
 
 Networks are the backbone of modern communication and play a vital role in our daily lives. Understanding the types of networks and their components helps in designing and managing efficient and secure communication systems. Whether it's a small LAN or a large WAN like the internet, choosing the right topology is crucial for ensuring network efficiency and reliability.
 
-## س
+
+
+
+## vedio 2
+
