@@ -1,118 +1,115 @@
-الشبكات (Networks)
-مقدمة عن الشبكات
-الشبكة (Network) هي مجموعة من الأجهزة المتصلة مع بعضها البعض (مثل أجهزة الكمبيوتر، الخوادم، الطابعات، الهواتف الذكية، وغيرها) التي تسمح بتبادل البيانات والموارد بينها. تُستخدم الشبكات لتسهيل التواصل، مشاركة الملفات، الوصول إلى الإنترنت، وإدارة الموارد بشكل مركزي.
+# Networks
 
-لماذا نستخدم الشبكات؟
-مشاركة الموارد: تسمح الشبكات بمشاركة الموارد مثل الطابعات، الملفات، والتطبيقات بين الأجهزة.
+## Introduction to Networks
 
-الاتصال والتواصل: تتيح الشبكات التواصل بين الأفراد عبر البريد الإلكتروني، الدردشة، والمكالمات.
+A **network** is a collection of interconnected devices (such as computers, servers, printers, smartphones, etc.) that allow the exchange of data and resources between them. Networks are used to facilitate communication, file sharing, internet access, and centralized resource management.
 
-الوصول إلى الإنترنت: الشبكات هي الأساس الذي يعتمد عليه الوصول إلى الإنترنت.
+---
 
-إدارة مركزية: تسمح الشبكات بإدارة الأجهزة والبيانات بشكل مركزي، مما يسهل الصيانة والأمان.
+## Why Do We Use Networks?
 
-تخزين البيانات: يمكن استخدام الشبكات لتخزين البيانات على خوادم مركزية بدلاً من تخزينها محلياً على كل جهاز.
+1. **Resource Sharing**: Networks allow sharing resources such as printers, files, and applications between devices.
+2. **Communication**: Networks enable communication between individuals via email, chat, and calls.
+3. **Internet Access**: Networks are the foundation for accessing the internet.
+4. **Centralized Management**: Networks allow centralized management of devices and data, making maintenance and security easier.
+5. **Data Storage**: Networks can be used to store data on centralized servers instead of locally on each device.
 
-مكونات الشبكة
-الأجهزة (Devices):
+---
 
-أجهزة الكمبيوتر والخوادم: الأجهزة التي تستخدم لإرسال واستقبال البيانات.
+## Components of a Network
 
-الراوترات (Routers): تقوم بتوجيه البيانات بين الشبكات المختلفة.
+1. **Devices**:
+   - **Computers and Servers**: Devices used to send and receive data.
+   - **Routers**: Devices that route data between different networks.
+   - **Switches**: Devices that connect devices within a local area network (LAN) and direct data between them.
+   - **Hubs**: Simple devices that connect devices within a network but are less efficient than switches.
+   - **Firewalls**: Devices or software that protect the network from external attacks.
 
-السويتشات (Switches): تربط الأجهزة داخل الشبكة المحلية (LAN) وتوجه البيانات بينها.
+2. **Media**:
+   - **Cables**: Such as Ethernet cables (e.g., Cat5, Cat6).
+   - **Wireless Connections**: Such as Wi-Fi.
 
-الموجهات (Hubs): أجهزة بسيطة تربط الأجهزة داخل الشبكة ولكنها أقل كفاءة من السويتشات.
+3. **Protocols**:
+   - **TCP/IP**: The fundamental protocol of the internet.
+   - **HTTP/HTTPS**: Protocols used for web browsing.
+   - **FTP**: File Transfer Protocol.
+   - **DNS**: Converts domain names into IP addresses.
 
-الجدران النارية (Firewalls): أجهزة أو برامج توفر الحماية للشبكة من الهجمات الخارجية.
+4. **Software**:
+   - Network operating systems (e.g., Windows Server, Linux).
+   - Network management software (e.g., Wireshark, Nagios).
 
-الوسائط (Media):
+---
 
-الكابلات: مثل كابلات Ethernet (مثل Cat5, Cat6).
+## Types of Networks by Geographic Scope
 
-الاتصال اللاسلكي: مثل Wi-Fi.
+1. **Local Area Network (LAN)**:
+   - Covers a small area like an office, home, or building.
+   - High data transfer speeds.
+   - Example: A network in a small company.
 
-البروتوكولات (Protocols):
+2. **Wide Area Network (WAN)**:
+   - Covers large areas like cities or countries.
+   - Used to connect multiple LANs.
+   - Example: The internet.
 
-TCP/IP: البروتوكول الأساسي للإنترنت.
+3. **Personal Area Network (PAN)**:
+   - Covers a very small area around a person (usually a few meters).
+   - Example: Connection between a smartphone and a Bluetooth headset.
 
-HTTP/HTTPS: بروتوكولات تستخدم لتصفح الويب.
+4. **Metropolitan Area Network (MAN)**:
+   - Covers a city or a medium-sized geographic area.
+   - Example: A university campus network.
 
-FTP: بروتوكول نقل الملفات.
+---
 
-DNS: بروتوكول يحول أسماء النطاقات إلى عناوين IP.
+## Types of Networks by Design (Topology)
 
-البرامج (Software):
+### 1. Bus Topology
+All devices are connected to a single cable (called the bus). Easy to set up but can experience network congestion.
 
-أنظمة التشغيل الشبكية (مثل Windows Server، Linux).
+![Bus Topology](https://i.imgur.com/3ZQZQ9m.png)
 
-برامج إدارة الشبكات (مثل Wireshark، Nagios).
+---
 
-أنواع الشبكات من حيث المدى الجغرافي (المساحة)
-الشبكة المحلية (LAN - Local Area Network):
+### 2. Star Topology
+All devices are connected to a central device (like a switch). Easy to manage and maintain, but the central device is a single point of failure.
 
-تغطي مساحة صغيرة مثل مكتب، منزل، أو مبنى.
+![Star Topology](https://i.imgur.com/4QZQZ9m.png)
 
-سرعة عالية في نقل البيانات.
+---
 
-مثال: شبكة في شركة صغيرة.
+### 3. Ring Topology
+Devices are connected in a circular fashion. Data travels in one direction around the ring. If one device fails, the entire network may be affected.
 
-الشبكة الواسعة (WAN - Wide Area Network):
+![Ring Topology](https://i.imgur.com/5ZQZQ9m.png)
 
-تغطي مساحات كبيرة مثل المدن أو الدول.
+---
 
-تستخدم لربط عدة شبكات LAN.
+### 4. Mesh Topology
+Every device is connected to every other device. Provides the highest level of reliability but is expensive and complex.
 
-مثال: الإنترنت.
+![Mesh Topology](https://i.imgur.com/6ZQZQ9m.png)
 
-الشبكة الشخصية (PAN - Personal Area Network):
+---
 
-تغطي مساحة صغيرة جداً حول الشخص (عادة بضعة أمتار).
+### 5. Hybrid Topology
+A combination of two or more of the above topologies. Offers high flexibility but can be complex to manage.
 
-مثال: الاتصال بين هاتف ذكي وسماعة بلوتوث.
+![Hybrid Topology](https://i.imgur.com/7ZQZQ9m.png)
 
-الشبكة الإقليمية (MAN - Metropolitan Area Network):
+---
 
-تغطي مدينة أو منطقة جغرافية متوسطة الحجم.
+## Most Common Types of Topologies Used
 
-مثال: شبكة جامعة كبيرة.
+1. **Star Topology**: Most common in LANs due to its ease of management and maintenance.
+2. **Bus Topology**: Was popular in the past but is less used now due to its limitations.
+3. **Mesh Topology**: Used in large networks requiring high reliability, such as military or government networks.
 
-أنواع الشبكات من حيث التصميم (Topology)
-الناقل (Bus Topology):
+---
+## seconed vedio
+## Conclusion
 
-جميع الأجهزة متصلة بكابل واحد (يسمى الناقل).
+Networks are the backbone of modern communication and play a vital role in our daily lives. Understanding the types of networks and their components helps in designing and managing efficient and secure communication systems. Whether it's a small LAN or a large WAN like the internet, choosing the right topology is crucial for ensuring network efficiency and reliability.
 
-سهل الإعداد ولكن قد يحدث ازدحام في الشبكة.
-
-النجمة (Star Topology):
-
-جميع الأجهزة متصلة بجهاز مركزي (مثل سويتش).
-
-سهل الإدارة والصيانة، ولكن الجهاز المركزي يعتبر نقطة فشل وحيدة.
-
-الحلقة (Ring Topology):
-
-الأجهزة متصلة بشكل دائري.
-
-البيانات تنتقل في اتجاه واحد حول الحلقة.
-
-إذا تعطل جهاز واحد، قد تتأثر الشبكة بأكملها.
-
-الشبكة (Mesh Topology):
-
-كل جهاز متصل بجميع الأجهزة الأخرى.
-
-يوفر أعلى مستوى من الاعتمادية، ولكنه مكلف ومعقد.
-
-الهجين (Hybrid Topology):
-
-مزيج من اثنين أو أكثر من التصميمات السابقة.
-
-يوفر مرونة عالية ولكن قد يكون معقداً في الإدارة.
-
-أشهر أنواع التوبولوجي المستخدمة
-النجمة (Star Topology): الأكثر شيوعاً في الشبكات المحلية (LAN) بسبب سهولة الإدارة والصيانة.
-
-الناقل (Bus Topology): كان شائعاً في الماضي ولكن قل استخدامه بسبب محدوديته.
-
-الشبكة (Mesh Topology): يستخدم في الشبكات الكبيرة التي تتطلب اعتمادية عالية، مثل الشبكات العسكرية أو الحكومية.
+## س
